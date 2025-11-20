@@ -49,7 +49,7 @@ languages:
     title: Summerxxxxycのブログ
     weight: 3
     params:
-      font: "GenJyuuGothicX-Normal"
+      font: "GenJyuuGothicX-Monospace-Medium"
       description: デモの説明
       sidebar:
         emoji: 🌞
