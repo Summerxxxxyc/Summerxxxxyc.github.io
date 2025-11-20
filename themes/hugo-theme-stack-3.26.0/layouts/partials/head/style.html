@@ -1,3 +1,12 @@
-{{ $sass := resources.Get "scss/style.scss" }}
-{{ $style := resources.Get "scss/style.scss" | css.Sass $options | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{- $options := dict "targetPath" "style.min.css" "outputStyle" "compressed" "enableSourceMap" true -}}
+
+{{- $style := resources.Get "scss/style.scss" | css.Sass $options | resources.Minify | resources.Fingerprint -}}
+
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+
+{{- /* Custom CSS */ -}}
+{{- if .Site.Params.customCSS -}}
+    {{- range .Site.Params.customCSS -}}
+        <link rel="stylesheet" href="{{ . | relURL }}">
+    {{- end -}}
+{{- end -}}
