@@ -20,7 +20,7 @@ languages:
     title: Summerxxxxyc's Blog
     weight: 1
     params:
-      font: "ChildFunSans"
+      font: "SF-Pro"
       description: Example description
       sidebar:
         emoji: 🌞

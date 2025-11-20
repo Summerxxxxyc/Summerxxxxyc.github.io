@@ -11,8 +11,8 @@
 
   /* 英文专用字体 */
   @font-face {
-    font-family: 'Ubuntu';
-    src: url('{{ (resources.Get "font/Ubuntu-R.ttf").RelPermalink }}') format('truetype');
+    font-family: 'SF-Pro';
+    src: url('{{ (resources.Get "font/SF-Pro.ttf").RelPermalink }}') format('truetype');
   }
 
   /* JetBrains Mono 代码字体 */
@@ -20,7 +20,7 @@
 
   :root {
     --base-font-family: '{{ $font }}', sans-serif;       /* 正文字体随语言切换 */
-    --english-font-family: 'Ubuntu', sans-serif;        /* 中文界面中的英文字体 */
+    --english-font-family: 'SF-Pro', sans-serif;        /* 中文界面中的英文字体 */
     --code-font-family: 'JetBrains Mono', monospace;   /* 代码块字体 */
   }
 
