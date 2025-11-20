@@ -1,7 +1,8 @@
 baseurl:  https://summerxxxxyc.github.io/
 languageCode: en-us
 theme: hugo-theme-stack-3.26.0
-paginate: 3
+pagination:
+  paginate: 3
 title: Example Site
 copyright: Summerxxxxyc
 
