@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Summerxxxxyc的博客</title>
+        <link>https://summerxxxxyc.github.io/zh-cn/page/</link>
+        <description>Recent content in Pages on Summerxxxxyc的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Summerxxxxyc</copyright><atom:link href="https://summerxxxxyc.github.io/zh-cn/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于</title>
+        <link>https://summerxxxxyc.github.io/zh-cn/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://summerxxxxyc.github.io/zh-cn/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;h3 id=&#34;个人简介&#34;&gt;个人简介
+&lt;/h3&gt;&lt;p&gt;本人就读于某不知名大学电子信息专业，电子发烧友，擅长C语言、Verilog，已学习基础的51单片机、STM32、FPGA开发，有实战开发经验，喜欢折腾电脑和嵌入式设备，欢迎同好私信交流讨论！&lt;/p&gt;
+&lt;h3 id=&#34;为什么创建这个网站&#34;&gt;为什么创建这个网站？
+&lt;/h3&gt;&lt;p&gt;随着学习的深入，我开始积累了越来越多的技术点和小发明。每当做完一个小项目或掌握一项新技能时，我就会有些想法和总结。如果不记录下来，它们可能很快就被遗忘，遂决定建立这个网站，将自己的学习过程、实验记录和小项目分享出来。这样，不仅能帮自己梳理思路，也能将这些内容保留下来，方便未来回顾和改进。&lt;/p&gt;
+&lt;h3 id=&#34;网站的内容有哪些&#34;&gt;网站的内容有哪些？
+&lt;/h3&gt;&lt;p&gt;网站的内容主要包括记录我在各门课程中的学习内容、实验过程和遇到的难点，帮助自己整理学习成果，以及展示我做的一些小型电子项目和技术实验，记录从设计到实现的每个细节。&lt;/p&gt;
+&lt;p&gt;未来，我会继续更新这些内容，尽量将每个项目都做好，完善自己在电子技术方面的理解。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
